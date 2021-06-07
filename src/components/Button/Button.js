@@ -1,11 +1,6 @@
-import React from 'react'
-import {Button} from './Styles'
+import React from "react";
+import { UIButton } from "./Styles";
 
-export const UIButton = ({children}) => {
-    return (
-        <Button>{children}</Button>
-    )
-}
-
-
-
+export const Button = ({ children }) => {
+  return <UIButton>{children}</UIButton>;
+};
